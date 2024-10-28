@@ -1,0 +1,31 @@
+﻿London Gibson-Purcell 
+CSC 120 Midterm Project
+Florida Dental Program
+
+
+1. Initialize the program.
+1.1 Print welcome message.
+2. Get Family Size (getfamilySize).
+2.1 Ask user for the number of family members.
+2.2 Validate input (1 to 6).
+3. Get Family Members’ Names (getFamilyName).
+3.1 For each family member, ask for their name and store in array.
+4. Get Teeth Data for each family member (getTeethRow & isValidTeethRow).
+4.1  Ask for upper teeth information.
+4.2 Ask for lower teeth information.
+4.3 Validate input against the tooth types (VALID_TEETH) & maximum number of teeth allowed (MAX_TEETH).
+5. Display Menu (displayMenu).
+5.1 Display the menu options and direct the user to the proper method.
+5.2 Exit program when prompted.
+6. Print Teeth Information (printFamilyTeethRecord).
+6.1 Print the number and type of tooth for each row of each family member.
+7. Extracting a Present Tooth (extractTooth).
+7.1 Ask for the name of a family member.
+7.2 Validate that the name is a part of the familyNames array.
+7.3 Ask for a tooth layer (upper or lower).
+7.4 Validate proper tooth layer indication (U or L).
+7.5 Ask for a tooth number. 
+7.6 Validate the tooth number and that it isn’t already missing. 
+7.7 Update the tooth data. 
+8. Calculate Indices (calculateRootCanalIndices).
+8.1 Calculate the indices based on tooth data and display results.
